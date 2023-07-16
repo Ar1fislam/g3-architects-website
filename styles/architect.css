@@ -155,6 +155,7 @@ main {
 .feature-img img {
     height: 90%;
     margin-left: 50px;
+    width: auto;
 }
 
 .ten-years-badge h2 {
