@@ -35,7 +35,6 @@
 header {
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
-    width: auto;
 }
 
 nav {
@@ -88,7 +87,7 @@ nav li a {
 /* main styles */
 main {
     max-width: 1440px;
-    margin: 70px auto;
+    padding: 80px;
 }
 
 /* teams style */
@@ -173,6 +172,7 @@ main {
 .facts-card-container {
     display: flex;
     justify-content: space-around;
+    margin:50px;
 }
 
 .facts-card-container .card {
@@ -199,6 +199,7 @@ main {
 /* sponsors style */
 .sponsors {
     text-align: center;
+    margin: 20px;
 }
 
 .sponsors-img-container {
@@ -208,6 +209,9 @@ main {
     align-items: center;
     gap: 40px;
 
+}
+.sponsors .section-title{
+    margin: 20px;
 }
 
 .sponsors-img-container img {
